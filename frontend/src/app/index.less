@@ -1,0 +1,85 @@
+@import '~antd/dist/antd.less';
+
+// Base variables
+@primary-color: #0070c2; // primary color for all components
+@link-color: #0070c2; // link color
+@success-color: #52c41a; // success state color
+@warning-color: #faad14; // warning state color
+@error-color: #f5222d; // error state color
+@font-size-base: 14px; // major text font size
+
+//
+@component-background: #F5F9FF;
+@body-background: #F5F9FF;
+
+// The background colors for active and hover states for things like
+// list items or table cells.
+@item-active-bg: #00467A;
+@item-hover-bg: #00467A;
+
+// Layout
+@layout-header-background: #F5F9FF;
+@layout-body-background: #F5F9FF;
+
+// Table
+@table-bg: white;
+@table-header-bg: #D2EAFC;
+@table-header-color: @heading-color;
+@table-header-sort-bg: #83C5F7;
+@table-body-sort-bg: @table-bg;
+@table-row-hover-bg: #D2EAFC;
+
+
+// Menu
+
+@menu-dark-color: black;
+@menu-dark-danger-color: @error-color;
+@menu-dark-bg: @layout-header-background;
+@menu-dark-arrow-color: #fff;
+@menu-dark-submenu-bg: #000c17;
+@menu-dark-highlight-color: #fff;
+@menu-dark-item-active-bg: @primary-color;
+@menu-dark-item-active-danger-bg: @error-color;
+@menu-dark-selected-item-icon-color: @white;
+@menu-dark-selected-item-text-color: @white;
+@menu-dark-item-hover-bg: transparent;
+
+/*table { background-color: @layout-body-background;
+}
+tr {background-color: white }
+.ant-table-container table > thead > tr:first-child th:first-child { border-top-left-radius: 15px;  }
+.ant-table-container table > thead > tr:first-child th:last-child{ border-top-right-radius: 15px; }
+tr:last-child td:first-child { border-bottom-left-radius: 15px; }
+tr:last-child td:last-child { border-bottom-right-radius: 15px; }*/
+
+.logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+}
+
+.ant-upload-list-item:hover .ant-upload-list-item-info{
+  background-color: @primary-3;
+}
+
+.ant-upload-list{
+  max-height: 150px;
+  overflow: auto;
+  margin-top: 15px;
+}
+
+.ant-upload-list::-webkit-scrollbar-track
+{
+  background-color: @body-background;
+}
+
+.ant-upload-list::-webkit-scrollbar
+{
+  background-color: @primary-color;
+}
+
+.ant-upload-list::-webkit-scrollbar-thumb
+{
+  background-color: @primary-color;
+}
