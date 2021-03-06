@@ -1,6 +1,5 @@
-# Longxia, a data labelling application
+# Longxia, a data labelling application (WIP)
 
-STILL WORK IN PROGRESS
 
 **Technology Stack**
 - React
