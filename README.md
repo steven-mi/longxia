@@ -1,6 +1,6 @@
 # Longxia, a data labeling application (WIP)
 
-Longxia is a data labeling application. This repository contains the code that runs on the production site. The configuration files are not pushed. Therefore, to run this application locally, you must add them. For more information about the configuration files, see the README of the subprojects. 
+Longxia is a data labeling application. This repository contains the code that runs on the production site. This repository is automatically updated after every update of the master branch of my private repositories. The configuration files are not pushed. Therefore, to run this application locally, you must add them. For more information about the configuration files, see the README of the subprojects. 
 
 
 **Frontend**
