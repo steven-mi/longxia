@@ -16,7 +16,7 @@ Longxia is a data labeling application. This repository contains the code that r
 - PostgreSQL
 
 **Hosting**
-- Heroku for the application
+- Heroku for hosting the frontend and backend
 - AWS S3 buckets for storing data
 
 ## License
